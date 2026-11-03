@@ -72,14 +72,14 @@ export default function SignupForm() {
         />
       </label>
       <label className="block">
-        <span className="sr-only">Confirm Email</span>
+        <span className="sr-only">Password</span>
         <input
           type="email"
           name="confirmEmail"
           autoComplete="email"
           inputMode="email"
           required
-          placeholder="Confirm Email"
+          placeholder="Password"
           value={confirm}
           onChange={(e) => setConfirm(e.target.value)}
           onPaste={(e) => e.preventDefault()}
